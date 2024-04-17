@@ -1,20 +1,9 @@
 [package]
-name = "guess-game"
+name = "find-ferris"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-[target.x86_64-apple-darwin]
-rustflags = [
-    "-C", "link-arg=-undefined",
-    "-C", "link-arg=dynamic_lookup",
-]
-
-[target.aarch64-apple-darwin]
-rustflags = [
-    "-C", "link-arg=-undefined",
-    "-C", "link-arg=dynamic_lookup",
-]
 
 [dependencies]
 rand = "0.8.5"

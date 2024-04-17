@@ -20,6 +20,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "find-ferris"
+version = "0.1.0"
+dependencies = [
+ "ferris-says",
+ "rand",
+]
+
+[[package]]
 name = "getrandom"
 version = "0.2.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -28,14 +36,6 @@ dependencies = [
  "cfg-if",
  "libc",
  "wasi",
-]
-
-[[package]]
-name = "guess-game"
-version = "0.1.0"
-dependencies = [
- "ferris-says",
- "rand",
 ]
 
 [[package]]
